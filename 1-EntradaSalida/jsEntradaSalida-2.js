@@ -10,6 +10,6 @@ function mostrar()
     //alert("Hola " + nombre);
     var nombre;
     nombre=prompt("Por favor ingrese su nombre");
-    alert("Hola" + nombre);
+    alert("Hola fdfd" + nombre);
 }
 
