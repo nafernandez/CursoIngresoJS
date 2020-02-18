@@ -1,19 +1,33 @@
 function mostrar()
 {
 	var edad;
+
 	edad=document.getElementById('edad').value;
 
-	if(edad>18)
-		{alert("es un adulto");
-		}
-	else
-		if(edad<13)
-		{alert("es un niño");
-		}
-		else
+	if(edad>17){
+		alert("Es mayor de edad.");
+	}else{
+		if(edad<13){
+			alert("Es un niño");
+			}else
+			{alert("Es adolescente.");
+			}	
+	}
+
+	//var edad;
+	//edad=document.getElementById('edad').value;
+
+	//if(edad>18)
+		//{alert("es un adulto");
+		//}
+	//else
+	//	if(edad<13)
+		//{alert("es un niño");
+	//	}
+	//	else
 			
-		{alert("es un adolescente");
-		}
+	//	{alert("es un adolescente");
+	//	}
 
 
 
