@@ -6,7 +6,9 @@
 -Importe(No puede ser negativo).  {}
 1. promedio de edad.
 2.Nombre del mas joven.
-3. sexo del importe mas alto
+3. cantidad de hombres.
+4.cantidad de mujeres.
+5. sexo del importe mas alto
 6. operacion mas utilizada
 7. importe del mas viejo.
 */
@@ -120,5 +122,8 @@ var nombre;
 
 		promedio=acumuladorDeEdad/contador;
 
-		document.write(importeEdadDelMasGrande);
+		document.write("<br>"+promedio);
+		document.write("<br>"+minimaEdadDelMasJovenNombre);
+	
+		document.write("<br>"+importeEdadDelMasGrande);
 }
